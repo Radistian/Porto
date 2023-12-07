@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;800&display=swap');
+
+*{
+    font-family: 'Gabarito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#092b43 ;
+    color: azure;
+}
+
+header{
+    background-color:#244760 ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding:20px 10%;
+    position: fixed;
+    z-index: 1;
+}
+
+.jdl a {
+    font-size: 30px;
+    color: azure;
+    text-decoration: none;
+}
+
+
+.nav a{
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    position: relative;
+    top: 8px;
+}
+
+.nav a:hover{
+    color: #466494;
+    font-weight: bolder;
+}
+
+section{
+    min-height: 110vh;
+    
+}
+
+.bio{
+    margin: 40px 155px;    
+    font-size: 30px;
+}
+
+.nama{
+    transform: translateY(30px);
+}
+
+.nama img{
+    height: 390px;
+}
+
+.gw{
+    display: flex;
+    gap: 3rem;
+    font-size: 25px;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.bhs{
+    background-color: #114b75;  
+    padding: 50px;  
+}
+
+.bhs h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.bahasa > .mapel > img{
+    height: 180px;
+    width: 170px;
+}
+
+.bahasa{
+    display: flex;
+    justify-content:space-between ;
+    gap: 3rem;
+    margin-top: 50px;
+}
+
+.mapel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 500px;
+}
+
+.top{
+    background-color: #114b75;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.top a{
+    background-color: darkcyan;
+    color: azure;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #244760;
+    height: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:844px) {
+    .nav {
+        display: flex;
+    }
+    .nav a{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .jdl a{
+        font-size: 25px;
+    }
+    .gw{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .bio{
+        margin: 50px 50px;    
+        font-size: 20px;
+    }
+    .nama h2{
+        margin-bottom: 10px;
+    }
+    .bhs h2{
+        font-size: 30px;
+    }
+    .bahasa{
+        display: flex;
+        flex-direction: column;
+    }
+}    
+
+/* #114b75 */

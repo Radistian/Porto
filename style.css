@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;800&display=swap');
+
+*{
+    font-family: 'Gabarito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #092b43;
+    color: azure;
+}
+header{
+    background-color:#244760;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ /* header  :hover{
+    color: #466494;
+    transition: 1s;
+} */
+
+.jdl a{
+    font-size: 30px;
+    color: azure;
+    text-decoration: none;
+}
+
+.nav a{
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    position: relative;    
+    top: 8px;
+}
+
+.nav a:hover{
+    color: #466494;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.inti{
+    color: azure;
+    align-items: center;
+    max-width: 55%;
+    margin-top: 200px;
+    background-color: transparent;
+    position: relative;
+    left: 150px;
+    font-size: 40px;
+}
+
+span{
+    color: darkcyan;
+    font-weight: bolder;
+}
+
+h3{
+    color: darkcyan;
+}
+
+
+.btn{
+    border:2px solid darkcyan;
+    background-color: darkcyan;
+    width: 130px;
+    height:30px ;
+    padding: 5px 10px;
+    position: relative;
+    top: 15px;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    transition: 1s;
+}
+
+@media screen and (max-width:844px) {
+    .nav {
+        display: flex;
+    }
+    .nav a{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .jdl a{
+        font-size: 25px;
+    }
+    .inti{
+        font-size: 27px;
+        left: 70px;
+        max-width: 70%;
+    }
+    .btn{
+        left: 70px;
+    }
+}
